@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Grupo
+comment1.params=nome
+comment1.target=Grupo(java.lang.String)
+comment2.params=participante
+comment2.target=void\ adicionarParticipante(Participante)
+comment3.params=
+comment3.target=void\ imprimirDados()
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Autor
+comment1.params=nome
+comment1.target=Autor(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=pseudonimo
+comment3.target=boolean\ setPseudonimo(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getPseudonimo()
+numComments=5

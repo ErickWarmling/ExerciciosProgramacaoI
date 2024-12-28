@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>180</y>
+      <w>300</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Banco
+--
+-codigo : int
+-nome : String
+--
++Banco (codigo : int, nome : String)
++setNome (nome : String) : boolean
++getCodigo() : int
++getNome() : String
++imprimirAgencia () : void
++imprimirAgencia (cidade : String) : void
++imprimirAgencia (anoAbertura : int) : void
++consultarAgencia (numero : int) : Agencia</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>210</y>
+      <w>370</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Agencia
+--
+-numero : int
+-cidade : String
+-anoAbertura : int
+--
++Agencia (numero : int, cidade : String, anoAbertura : int)
++getNumero() : int
++getCidade() : String
++getAnoAbertura() : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>270</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..*
+é composto por &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>150</y>
+      <w>280</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Veiculo
+--
+-modelo : String
+-potencia : double
+-combustivelTanque : double
+-hodometro : int
+--
++Veiculo (modelo : String, hodometro : int)
++getModelo () : String
++setPotencia (potencia : double) : boolean
++getPotencia () : double
++getCombustivelTanque () : double
++getHodometro () : int
++abastecer (litros : double) : boolean
++viajar (quilometragem : int) : double
++toString () : String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>230</y>
+      <w>220</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_veiculo2: Veiculo_
+--
+modelo = "Gol"
+potencia = 1.6
+combustivelTanque = 10
+hodometro = 75000</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>230</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_veiculo1: Veiculo_
+--
+modelo = "Fusca"
+potencia = 1.0
+combustivelTanque = 10
+hodometro  150000</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

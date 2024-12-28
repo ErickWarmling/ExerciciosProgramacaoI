@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>110</y>
+      <w>240</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>InteiroPositivo
+--
+-x : int
+--
++InteiroPositivo (x : int)
++setValor (x : int) : boolean
++verificaImpar () : boolean
++divisoresX () : void
++calculaFatorial () : int
++calculaFunçãoH () : double
++calculaFunçãoP () double
++calculaRaizQuadrada () : double</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>90</y>
+      <w>360</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Grupo
+--
+-nome : String
+--
++Grupo (nome : String)
++imprimirDados () : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>70</y>
+      <w>300</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Participante
+--
+-nome : String
+-telefone : String
+--
++Participante (nome : String, telefone : String)
++getNome () : String
++getTelefone () : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>320</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>_grupo1: Grupo_
+--
+nome = "Grupo 1"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>490</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>_grupo2: Grupo_
+--
+nome = "Grupo 2"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>240</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_maria: Participante_
+--
+nome = "Maria"
+telefone = "49 11111-1111"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>320</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_josé: Participante_
+--
+nome = "José"
+telefone = "49 22222-2222"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>400</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_pedro: Participante_
+--
+nome = "Pedro"
+telefone = "49 33333-3333"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>480</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_isabela: Participante_
+--
+nome = "Isabela"
+telefone = "49 44444-4444"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>560</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_samara: Participante_
+--
+nome = "Samara"
+telefone = "49 55555-5555"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>250</y>
+      <w>350</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;90.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>320</y>
+      <w>350</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>330</y>
+      <w>350</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;330.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>490</y>
+      <w>350</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>500</y>
+      <w>350</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;330.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>330</y>
+      <w>350</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;330.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>110</y>
+      <w>250</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m2=1..*
+possui &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+</diagram>

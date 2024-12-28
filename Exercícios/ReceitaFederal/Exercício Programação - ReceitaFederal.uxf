@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>504</x>
+      <y>80</y>
+      <w>224</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+Pessoa
+--
+#nome : String
+#endereço : String
+--
++Pessoa (nome : String, endereco : String)
++setNome (nome : String) : boolean
++getNome() : String
++setEndereco (endereco : String) : boolean
++getEndereco() : String
++toString() : String
+/+calcularImposto() : double/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>280</y>
+      <w>560</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>PessoaFísica
+--
+-rg : String
+-cpf : String
+-salarioMensal : double
+-dependentes : int
+--
++PessoaFisica (nome : String, endereco : String, rg : String, cpf : String, salarioMensal : double, dependentes : int)
++setRg (rg : int) : boolean
++getRg() : String
++setCpf (cpf : String) : boolean
++getCpf() : String
++setSalarioMensal (salarioMensal : double) : boolean
++getSalarioMensal() : double
++setDependentes (dependentes : int) : boolean
++getDependentes() : int
++calcularImposto () : double
++toString () : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>280</y>
+      <w>544</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>PessoaJuridica
+--
+-cnpj : String
+-faturamento : double
+-enquadramento : int
+--
++PessoaJuridica (nome : String, endereco : String, cnpj : String, faturamento : double, enquadramento : int)
++setCnpj (cnpj : String) : boolean
++getCnpj() : String
++setFaturamento (faturamento : double) : boolean
++getFaturamento() : double
++setEnquadramento (enquadramento : int) : boolean
++getEnquadramento() : int
++calcularImposto () : double
++toString() : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>632</x>
+      <y>232</y>
+      <w>288</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;340.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>232</y>
+      <w>304</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>360.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>128</y>
+      <w>248</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>ReceitaFederal
+--
+--
++imprimirContribuintesDadosBasicos () : void
++imprimirContribuintesDadosCompletos() : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>144</y>
+      <w>232</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>m2=*
+cobra &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+</diagram>

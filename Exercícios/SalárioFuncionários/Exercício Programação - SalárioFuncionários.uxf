@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>50</y>
+      <w>690</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>Funcionário
+--
+-nome : String
+-horasTrabalhadas : double
+-salarioHora : double
+-quantidadeDependentes : int
+--
++Funcionário (nome : String, horasTrabalhadas : double, salarioHoras : double, quantidadeDependentes : int
++setNome (nome : String) : boolean
++getNome () : String
++setHorasTrabalhadas (horasTrabalhadas : double) : boolean
++getHorasTrabalhadas () : double
++setSalarioHora (salarioHora : double) : boolean
++getSalarioHora () : double
++setQuantidadeDependentes (quantidadeDependentes : int) : boolean
++getQuantidadeDependentes () : int
++calcularSalarioBruto () : double
++calcularDescontoINSS () : double
++calcularDescontoIR () : double
++calcularSalarioLiquido () : double
++toString () : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>160</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_Fun2 : Funcionário_
+--
+nome = "Bia"
+horasTrabalhadas = 200
+salarioHora = R$ 12,50
+quantidadeDependentes = 0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>160</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_Fun1 : Funcionário_
+--
+nome = "Bob"
+horasTrabalhadas = 160
+salarioHora = R$ 6,15
+quantidadeDependentes = 2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

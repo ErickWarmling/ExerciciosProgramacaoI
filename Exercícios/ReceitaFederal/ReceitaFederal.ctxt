@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ReceitaFederal
+comment1.params=
+comment1.target=ReceitaFederal()
+comment2.params=pessoa
+comment2.target=void\ adicionarPessoa(Pessoa)
+comment3.params=
+comment3.target=void\ imprimirContribuintesDadosBasicos()
+comment4.params=
+comment4.target=void\ imprimirContribuintesDadosCompletos()
+numComments=5
